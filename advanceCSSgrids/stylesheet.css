@@ -1,0 +1,203 @@
+/* css style sheet
+-----font code
+font-family: 'Staatliches', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+body {
+  background-image: url("images/8_pic1.png");
+  background-repeat: repeat;
+  background-position: top, left;
+  width: auto;
+  height: auto;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  margin: 10px auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto auto;
+}
+
+header {
+  grid-column: span 12;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(205, 0, 53);
+}
+
+nav {
+  grid-column: span 3;
+  float: left;
+  margin-top: 0;
+  margin-left: 10px;
+
+}
+ul.navigation {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-right: auto;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+}
+
+li.button {
+  background: rgb(205, 0, 53);
+  padding-top: 15px;
+  padding-right: auto;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+li.button:hover {
+  background: rgb(160, 0, 0);
+
+}
+
+main {
+  grid-column: span 9;
+  margin-top: 0;
+  padding: 0 10px;
+
+}
+.myVideo {
+  float: right;
+  margin-right: 10px;
+
+}
+.box1 {
+  grid-column: span 9;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  border-bottom: solid 3px #000000;
+  padding-bottom: 10px;
+
+}
+.box2 {
+  grid-column: span 9;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  border-bottom: solid 3px #000000;
+  margin-bottom: 20px;
+
+}
+
+.box3 {
+  grid-column: span 9;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  height: auto;
+
+}
+
+#kansas{
+  float: left;
+  margin-right: 10px;
+
+}
+audio {
+  margin-right: auto;
+}
+
+
+
+
+
+footer.myFooter {
+  grid-column: span 12;
+  width: 100%;
+  background: rgb(205, 0, 53);
+  color: #ffffff;
+  font-size: 24px;
+  font-style: bold;
+  text-align: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+border-top: solid 3px #000000;
+margin: 0 auto;
+
+}
+
+
+h2 {
+  color: #000000;
+  padding-top: 0;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+
+a.links {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.titleItal {
+  font-style: italic;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  padding-right: 10px;
+}
+
+
+p.bold {
+  font-weight: bold;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+
+}
+
+p a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(45, 67, 255);
+
+}
