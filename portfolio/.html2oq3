@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+   <meta charset="UTF-8" />
+
+   <title>Kim Brucker's Portfolio 2019</title>
+
+   <link href="stylesheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Kim Brucker</h1>
+      <h1 class="title">Instructional Art Developer</h1>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <li>Illustration</li>
+            <ul>
+              <li>Illustrator</li>
+              <li>Photoshop</li>
+            </ul>
+          <li>Art Development</li>
+            <ul>
+              <li>Style</li>
+              <li>Content</li>
+            </ul>
+          <li>Interactive Art</li>
+          <li>Creative Programming</li>
+          <li>Web Design</li>
+          <li>Animation</li>
+          <li>Design</li>
+          <li>Art</li>
+
+        </ul>
+
+      </nav>
+
+    </main>
+    <footer>
+
+    </footer>
+
+  </div>
+</body>
+
+</html>
