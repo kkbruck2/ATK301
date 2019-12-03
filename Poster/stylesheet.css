@@ -19,6 +19,7 @@ div.main {
   border-top: 10px solid rgb(117, 148, 151);
   border-bottom: 10px solid rgb(117, 148, 151);
   text-align: center;
+  display: inline-block;
 }
 
 h3.underlineK {
