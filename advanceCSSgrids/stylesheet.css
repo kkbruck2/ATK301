@@ -54,6 +54,7 @@ ul.navigation {
   margin-left: 0;
   padding-left: 0;
   list-style: none;
+  width: span 3;
 }
 
 li a {
