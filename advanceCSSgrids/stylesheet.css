@@ -15,14 +15,18 @@ body {
 }
 
 #wrapper {
-  margin: 10px auto;
+  position: inherit;
   padding: 0;
   width: 960px;
   border: 1px solid #ff0000;
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 100px auto auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto;
+}
+.design1 {
+  grid-column: 1;
+
 }
 
 header {
