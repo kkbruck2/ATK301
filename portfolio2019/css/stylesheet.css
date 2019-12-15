@@ -2,7 +2,7 @@
 
 body, html {
   overflow: hidden;
-  font-size: 15pt;
+  font-size: 1em;
 }
 
 * {
@@ -12,7 +12,7 @@ body, html {
 nav h1 {
   font-family: 'Roboto Condensed', sans-serif;
   color: #eeeeee;
-  font-size: 72pt;
+  font-size: 60pt;
 
 text-align: center;
 
@@ -61,7 +61,7 @@ ul.navigation {
 .button {
   color: #dddddd;
   font-family: 'Roboto', sans-serif;
-  font-size: 30pt;
+  font-size: 1.2em;
   font-kerning: normal;
   font-weight: 400;
   padding-top: 10%;
@@ -181,7 +181,7 @@ li a {
 /* demo styles
   --------------------------------------------- */
 .parallax {
-  font-size: 20pt;
+  font-size: 1.5em;
 }
 
 .icon {
@@ -263,7 +263,7 @@ li a {
   border-color: #333333;
   border-width: 3px;
   color: #dddddd;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-stretch: ultra-expanded;
   top: 50%;
   padding: 20px 120px;
@@ -279,9 +279,9 @@ li a {
   border-color: #333333;
   border-width: 6px;
   color: #dddddd;
-  font-size: 48pt;
+  font-size: 2em;
   font-stretch: ultra-expanded;
-  top: 43.5%;
+  top: 40%;
   right:0;
   padding: 20px 120px;
 width: 100%;
@@ -296,7 +296,7 @@ width: 100%;
   border-color: #333333;
   border-width: 3px;
   color: #dddddd;
-  font-size: 30pt;
+  font-size: 1.2em;
   font-weight: bold;
   padding: 15px 120px;
   text-align: left;
@@ -314,18 +314,18 @@ width: 100%;
   border-color: #333333;
   border-width: 3px;
   color: #dddddd;
-  font-size: 30pt;
+  font-size: 1.2em;
   font-weight: bold;
   padding: 15px 120px;
   text-align: left;
-  left: 5%;
-  top: 2.5%;
+  left: 0;
+  top: 0;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .purposeText {
-font-size: 24pt;
+font-size: 1.1em;
   font-family: 'Roboto', sans-serif;
   color: #dddddd;
   margin: 5%;
