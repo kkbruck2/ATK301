@@ -2,29 +2,25 @@
 
 body, html {
   overflow: hidden;
-}
-
-body {
-  font-size: 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 15pt;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+nav h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #eeeeee;
+  font-size: 72pt;
 
-.ddtitle {
-  font-family: 'Roboto Slab', serif;
+text-align: center;
+
 }
-
 // # PAGE STRUCTURE
 .site {
   display: flex;
-  /*
   min-height: 100vh;
-  --------------------------------------------- */
-  background: red;
 }
 
 .site-nav {
@@ -36,16 +32,10 @@ body {
 
 .site-content {
   width: 80%;
+  left: 20%;
   flex: 1;
   display: flex;
   flex-direction: column;
-}
-
-.content-header {
-  background: #666666;
-  margin-left: 20%;
-  height: 100px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, .15);
 }
 
 .content-topic {
@@ -61,33 +51,30 @@ body {
   align-items: center;
 }
 
-.section-title {
-  font-size: 1.5em;
-  font-family: 'Open Sans', sans-serif;
-  color: rgba(0, 0, 0, .25);
-  text-align: center;
-}
-
 ul.navigation {
   margin-top: 0px;
   margin-left: 0px;
-  margin-bottom;
-  auto list-style: none;
+  margin-bottom: auto;
+  list-style: none;
 }
 
-li.button {
-  background: rgb(136, 136, 136);
-  padding-top: 15px;
+.button {
+  color: #dddddd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30pt;
+  font-kerning: normal;
+  font-weight: 400;
+  padding-top: 10%;
   padding-right: auto;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  margin-bottom: 10px;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  margin-bottom: 0;
   margin-left: 0;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 li.button:hover {
-  background: rgb(160, 0, 0);
+  background: #639341;
 }
 
 li a {
@@ -96,17 +83,13 @@ li a {
   margin-left: 0;
 }
 
+.ddtitle {
+  font-family: 'Roboto Slab', serif;
+}
+
 @import "compass/css3";
 
-.demo__info {
-  position: absolute;
-  z-index: 100;
-  bottom: 1vh;
-  top: auto;
-  font-size: 1.5 em;
-  text-align: center;
-  width: 100%;
-}
+
 
 /* Parallax base styles
   --------------------------------------------- */
@@ -145,7 +128,6 @@ li a {
 }
 
 .parallax__layer--base {
-  position: absolute;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   z-index: 4;
@@ -199,41 +181,54 @@ li a {
 /* demo styles
   --------------------------------------------- */
 .parallax {
-  font-size: 2 em;
+  font-size: 20pt;
+}
+
+.icon {
+  transform: scale(.75);
 }
 
 .over1 {
   position: absolute;
   left: 0;
-  top: 59%;
+  top: 50%;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .vectorLine {
-  position: relative;
-  bottom: 0;
-  width: 42.5%;
-  left: 3.3%;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: -49%;
+  left: 3.5%;
+  transform: scale(1.075);
+
 }
 
 .flower {
+  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .animationBkg {
   position: absolute;
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
+  width: 100%;
+  height: 100vh;
 }
+
+.processes {
+  position: absolute;
+  width: 100%;
+  height: 100vh;}
 
 .wood {
   position: absolute;
-  height: 90%;
   bottom: 0;
   width: 100%;
+    height: 100vh;
+
 }
 
 .appPages {
@@ -249,47 +244,19 @@ li a {
   display: block;
 }
 
-#art1 {
-  top: 2%;
-  left: 2%;
+.arts {
   position: absolute;
-  border: 1px solid #ff0000;
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto auto;
-}
-.dolphin {
-  grid-column: 1;
-  grid-row: 1;
-  float: left;
-  display: block;
-}
- #art2{
-   top: 2%;
-   left: 2%;
-   position: absolute;
-   border: 1px solid #ff0000;
-   background-color: #ffffff;
-   display: grid;
-   grid-template-columns: repeat(6, 1fr);
-   grid-template-rows: auto auto;
- }
+  width: 100%;
+  height: 100vh;
 
-
-
-.design1 {
-  width: 45%;
-  grid-column: 1;
-  margin-top: 20px;
-  float: left;
-  display: inline;
 }
 
 
 
 /* centre the content in the parallax layers */
 .title {
+  font-family: 'Roboto Condensed', sans-serif;
   position: relative;
   background-color: #33333399;
   border-style: solid;
@@ -301,62 +268,69 @@ li a {
   top: 50%;
   padding: 20px 120px;
   text-align: right;
-  margin-left: 62%;
+  margin-left: 65%;
 }
 
 .introTitle {
-  position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
   background-color: #33333399;
   border-style: solid none solid none;
   border-color: #333333;
-  border-width: 3px;
+  border-width: 6px;
   color: #dddddd;
-  font-size: 2.5em;
+  font-size: 48pt;
   font-stretch: ultra-expanded;
-  top: 50%;
+  top: 43.5%;
+  right:0;
   padding: 20px 120px;
+width: 100%;
   text-align: right;
 }
 
 .titleO {
+    font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   background-color: #33333399;
-  border-style: solid solid none none;
+  border-style: solid solid solid none;
   border-color: #333333;
   border-width: 3px;
   color: #dddddd;
+  font-size: 30pt;
   font-weight: bold;
-  font-size: 1em;
   padding: 15px 120px;
   text-align: left;
   left: 9%;
-  bottom: -11.25%;
+  bottom: -2.50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .titletop {
+    font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   background-color: #33333399;
-  border-style: none solid solid none;
+  border-style: solid solid solid none;
   border-color: #333333;
   border-width: 3px;
   color: #dddddd;
-  font-size: 1em;
+  font-size: 30pt;
   font-weight: bold;
   padding: 15px 120px;
   text-align: left;
-  left: 7%;
-  top: 11.25%;
+  left: 5%;
+  top: 2.5%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .purposeText {
+font-size: 24pt;
+  font-family: 'Roboto', sans-serif;
   color: #dddddd;
   margin: 5%;
   line-height: 1.75;
-  width: 35%;
+  width: 30%;
   padding: 100px;
   background-color: #666666;
   position: relative;
